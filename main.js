@@ -24,13 +24,13 @@ PouseAnimation()
 if(url_params['range']){
     tmp=decodeURI(url_params['range']).split(',')
     election_box=Array.from({length: tmp[1]-tmp[0]+1}, (v, k) => ""+(Number(tmp[0])+k));
-    console.log(election_box)
 }
 else if(url_params['e']){
     election_box=decodeURI(url_params['e']).split(',')
 }else{
     election_box='あいうえおかがきぎくぐけげこごさざしじすずせぜそぞただちぢつづてでとどなにぬねのはひふへほまみむめもやゆよらりるれろわ'
 }
+console.log(election_box)
 
 document.getElementById('BOX').addEventListener('click',()=>{
     PlayAnimation()
