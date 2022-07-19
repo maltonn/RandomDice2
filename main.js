@@ -32,11 +32,17 @@ else if(url_params['e']){
 }
 console.log(election_box)
 
+const music = new Audio('o.m4a');
 document.getElementById('BOX').addEventListener('click',()=>{
     PlayAnimation()
     setTimeout(()=>{
         PouseAnimation()
     },10*1000)
+    if(url_params['sound']=="true"){
+        setTimeout(()=>{
+            music.play();
+        },2.0*1000)
+    }
     random_chara=election_box[Math.floor(Math.random()*election_box.length)]
     chara.innerText=random_chara
     chara.style.fontSize=240/random_chara.length+'px'
