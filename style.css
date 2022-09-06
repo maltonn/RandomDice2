@@ -178,7 +178,6 @@ body{
 #chara {
     width: 300px;
     height: 300px;
-    display:flex;
     animation:liftdown 10s forwards infinite;
     transform: translateY(100%);
     opacity: 0;

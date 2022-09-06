@@ -3,14 +3,14 @@
 
 ## パラメーター
 
-自由選択肢
-例：https://randomdice2.netlify.app/?e=りんご,みかん,ぶどう  
+自由選択肢  
+例：https://randomdice2.netlify.app/?e=りんご,みかん,ぶどう
 
-数値の範囲指定
+数値の範囲指定  
 例：https://randomdice2.netlify.app/?range=1,20  
 
-効果音の有無
+効果音の有無  
 例：https://randomdice2.netlify.app/?range=1,20&sound=true
 
-アニメーションをスキップ
+アニメーションをスキップ  
 例：https://randomdice2.netlify.app/?range=1,20&skip=true
